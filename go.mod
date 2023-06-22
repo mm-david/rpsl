@@ -1,9 +1,13 @@
-module github.com/kkirsche/rpsl
+module github.com/mm-david/rpsl
 
-go 1.12
+go 1.20
 
 require (
-	github.com/kkirsche/monkey v0.0.0-20190731140858-53142c5a18a5 // indirect
-	github.com/mattn/go-runewidth v0.0.4
+	github.com/kkirsche/rpsl v0.0.0-20230619215615-7aba64e81ed2
 	github.com/stretchr/testify v1.3.0
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 )
