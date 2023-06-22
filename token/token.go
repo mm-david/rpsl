@@ -52,6 +52,7 @@ const (
 	CLASS_DICTIONARY
 	CLASS_FILTER_SET
 	CLASS_MAINTAINER
+	CLASS_ORGANIZATION
 	CLASS_PEERING_SET
 	CLASS_PERSON
 	CLASS_ROLE
@@ -115,19 +116,20 @@ var names = map[Type]string{
 	DATA_STRING:                    "DATA_STRING",
 	DATA_TELEPHONE_OR_FAX_NUMBER:   "DATA_TELEPHONE_OR_FAX_NUMBER",
 	// Object Classes
-	CLASS_AS_SET:      "CLASS_AS_SET",
-	CLASS_AUT_NUM:     "CLASS_AUT_NUM",
-	CLASS_DICTIONARY:  "CLASS_DICTIONARY",
-	CLASS_FILTER_SET:  "CLASS_FILTER_SET",
-	CLASS_MAINTAINER:  "CLASS_MAINTAINER",
-	CLASS_PEERING_SET: "CLASS_PEERING_SET",
-	CLASS_PERSON:      "CLASS_PERSON",
-	CLASS_ROLE:        "CLASS_ROLE",
-	CLASS_ROUTE6:      "CLASS_ROUTE6",
-	CLASS_ROUTE:       "CLASS_ROUTE",
-	CLASS_ROUTER:      "CLASS_ROUTER",
-	CLASS_ROUTER_SET:  "CLASS_ROUTER_SET",
-	CLASS_ROUTE_SET:   "CLASS_ROUTE_SET",
+	CLASS_AS_SET:       "CLASS_AS_SET",
+	CLASS_AUT_NUM:      "CLASS_AUT_NUM",
+	CLASS_DICTIONARY:   "CLASS_DICTIONARY",
+	CLASS_FILTER_SET:   "CLASS_FILTER_SET",
+	CLASS_MAINTAINER:   "CLASS_MAINTAINER",
+	CLASS_ORGANIZATION: "CLASS_ORGANIZATION",
+	CLASS_PEERING_SET:  "CLASS_PEERING_SET",
+	CLASS_PERSON:       "CLASS_PERSON",
+	CLASS_ROLE:         "CLASS_ROLE",
+	CLASS_ROUTE6:       "CLASS_ROUTE6",
+	CLASS_ROUTE:        "CLASS_ROUTE",
+	CLASS_ROUTER:       "CLASS_ROUTER",
+	CLASS_ROUTER_SET:   "CLASS_ROUTER_SET",
+	CLASS_ROUTE_SET:    "CLASS_ROUTE_SET",
 	// Object Attributes
 	ATTR_ADDRESS:                   "ATTR_ADDRESS",
 	ATTR_ADMIN_CONTACT:             "ATTR_ADMIN_CONTACT",
@@ -160,19 +162,20 @@ var names = map[Type]string{
 
 var objectStrings = map[Type]string{
 	// Object Classes
-	CLASS_AS_SET:      "as-set",
-	CLASS_AUT_NUM:     "aut-num",
-	CLASS_DICTIONARY:  "dictionary",
-	CLASS_FILTER_SET:  "filter-set",
-	CLASS_MAINTAINER:  "mntner",
-	CLASS_PEERING_SET: "peering-set",
-	CLASS_PERSON:      "person",
-	CLASS_ROLE:        "role",
-	CLASS_ROUTE6:      "route6",
-	CLASS_ROUTE:       "route",
-	CLASS_ROUTER:      "inet-rtr",
-	CLASS_ROUTER_SET:  "rtr-set",
-	CLASS_ROUTE_SET:   "route-set",
+	CLASS_AS_SET:       "as-set",
+	CLASS_AUT_NUM:      "aut-num",
+	CLASS_DICTIONARY:   "dictionary",
+	CLASS_FILTER_SET:   "filter-set",
+	CLASS_MAINTAINER:   "mntner",
+	CLASS_ORGANIZATION: "organization",
+	CLASS_PEERING_SET:  "peering-set",
+	CLASS_PERSON:       "person",
+	CLASS_ROLE:         "role",
+	CLASS_ROUTE6:       "route6",
+	CLASS_ROUTE:        "route",
+	CLASS_ROUTER:       "inet-rtr",
+	CLASS_ROUTER_SET:   "rtr-set",
+	CLASS_ROUTE_SET:    "route-set",
 	// Object Attributes
 	ATTR_ADDRESS:                   "address",
 	ATTR_ADMIN_CONTACT:             "admin-c",

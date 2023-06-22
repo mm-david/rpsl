@@ -214,6 +214,8 @@ func lexObjectClass(l *Lexer) stateFn {
 			return lexAttrName(l, token.CLASS_ROUTE6, lexCIDRv6AttrValue, lexClassAttributes)
 		case strings.HasPrefix(l.lowerInput[l.pos:], token.CLASS_ROUTE.Name()):
 			return lexAttrName(l, token.CLASS_ROUTE, lexCIDRv4AttrValue, lexClassAttributes)
+		case strings.HasPrefix(l.lowerInput[l.pos:], token.CLASS_ORGANIZATION.Name()):
+			return lexAttrName(l, token.CLASS_ORGANIZATION, lexFreeformAttrValue, lexClassAttributes)
 		case strings.HasPrefix(l.lowerInput[l.pos:], token.CLASS_FILTER_SET.Name()):
 			// TODO
 			fallthrough
