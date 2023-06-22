@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"github.com/kkirsche/rpsl/token"
+	"github.com/mm-david/rpsl/token"
 	"github.com/stretchr/testify/assert"
 )
 

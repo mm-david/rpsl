@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/kkirsche/rpsl/token"
+	"github.com/mm-david/rpsl/token"
 )
 
 const (
